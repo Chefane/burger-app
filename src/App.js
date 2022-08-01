@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+
+
+//funtion for top bread
+function TopBread() {
+ return <button >Top Bread</button>;
+
+}
+
+//function for Bottom bread
+function BottomBread(){
+  return <button>Bottom Bread</button>;
+}
+
+//function for tomoto
+function Tomato(){
+  return <button>Tomato</button>;
+}
+
+//function for meat
+function Meat(){
+  return <button>Meat</button>;
+}
+
+//function for lattice
+function Lattice(){
+  return <button>Lattice</button>;
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <TopBread/>
+     <Tomato/>
+     <Meat/>
+     <Lattice/>
+     <BottomBread/>
     </div>
   );
 }
