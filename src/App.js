@@ -9,6 +9,7 @@ import './App.css';
 function Heading(){
 
   return <h2>Burger Demo</h2>;
+
 }
 
 //funtion for top bread
