@@ -1,68 +1,14 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(burger.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; ;
 }
 
-h2{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 200px;
-}
-
- .topBread{
-  background-color:#eba134;
-  border-radius: 30px 30px 4px 4px;
-  display: grid;
-  height: 65px;
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 200px;
+.burgerContent {
+  width: 100%;
+  max-width: 700px;
+  display: table;
+  margin: 5% auto 0;
   
-}
-
-.bottomBread{
-  background-color:#eba134;
-  border-radius: 4px 4px 30px 30px;
-  display: grid;
-  height: 65px;
-  width: 400px;
-  margin-left: 200px;
-  
-
-}
-
-.tomato{
-  background-color: #eb5534;
-  color: white;
-  border-radius: 4px;
-  display: grid;
-  height: 70px;
-  width: 400px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 200px;	
-}
-
-.meat{
-  background-color: #803401;
-  color: white;
-  border-radius: 4px;
-  display: grid;
-  height: 60px;
-  width: 400px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 200px;
-}
-
-.lattice{
-  background-color: #33cf04;
-  color: white;
-  border-radius: 4px;
-  display: grid;
-  height: 50px;
-  width: 400px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 200px;
 }
