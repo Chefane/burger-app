@@ -87,7 +87,7 @@ export default class Burger extends Component {
               onClick={() => this.addRemoveIngridients("add", "lettuce")}
               className="ingrBtn"
             >
-              Add
+              Add Lettuce
             </button>
             <button
               onClick={() => this.addRemoveIngridients("remove", "lettuce")}
@@ -102,7 +102,7 @@ export default class Burger extends Component {
               onClick={() => this.addRemoveIngridients("add", "tomato")}
               className="ingrBtn"
             >
-              Add
+              Add Tomato
             </button>
             <button
               onClick={() => this.addRemoveIngridients("remove", "tomato")}
@@ -117,7 +117,7 @@ export default class Burger extends Component {
               onClick={() => this.addRemoveIngridients("add", "cheese")}
               className="ingrBtn"
             >
-              Add
+              Add Cheese
             </button>
             <button
               onClick={() => this.addRemoveIngridients("remove", "cheese")}
@@ -132,7 +132,7 @@ export default class Burger extends Component {
               onClick={() => this.addRemoveIngridients("add", "meat")}
               className="ingrBtn"
             >
-              Add
+              Add Meat
             </button>
             <button
               onClick={() => this.addRemoveIngridients("remove", "meat")}
