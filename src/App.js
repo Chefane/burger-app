@@ -1,17 +1,12 @@
-import React from 'react';
-import './App.css';
- 
-import Burger from './components/burger';
+import React from "react";
+import "./App.css";
 
-
-
+import Burger from "./components/burger";
 
 function App() {
   return (
     <div className="burgerContent">
-    
-    <Burger/>
-
+      <Burger />
     </div>
   );
 }
